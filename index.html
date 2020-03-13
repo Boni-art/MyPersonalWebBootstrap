@@ -254,8 +254,8 @@
                         <hr>
                         <form align="justify" method="POST" action="mailto:boniabiy@gmail.com" enctype="utf-8">
                             <h4>How do you rate this website?</h4>
-                            <input type="range" id="volume" name="volume" min="0" max="10">
-                            <h4>Any comments regarding this personal web of mine☺.</h4>
+                            <input required type="range" id="volume" name="volume" min="0" max="10">
+                            <h4>Any comments regarding this personal web of mine☺(optional).</h4>
                             <textarea name="" id="" cols="80" rows="5"></textarea>
                             <button type="submit">SUBMIT</button>
                         </form>
@@ -263,16 +263,16 @@
                     <td width="50%">
                         <form method="POST" action="mailto:boniabiy@gmail.com" enctype="utf-8">
                             <h4>NAME</h4>
-                            <input type="text">
+                            <input required type="text" pattern="[A-Z][a-z]">
                             <h4>EMAIL</h4>
-                            <input type="email" name="email" id="email">
+                            <input required type="email" name="email" id="email">
                             <h4>SUBJECT</h4>
                             <select name="country">
                                 <option value="Any type of enquiry">Any type of enquiry</option>
                                 <option value="Where to find 'this'">Where to find "this"</option>
                                 <option value="Discussion">Discussion</option>
                             </select>
-                            <h4>YOUR MESSAGE</h4>
+                            <h4>YOUR MESSAGE(optional)</h4>
                             <textarea name="yourmessage" id="yourmessage" cols="70" rows="10"></textarea><br>
                             <button>SUBMIT</button>
                         </form>
