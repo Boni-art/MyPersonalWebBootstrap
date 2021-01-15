@@ -1,4 +1,8 @@
 
+@font-face {
+  font-family: proximanova;
+  src: url("./assets/fonts/milliard-cufonfonts/Rene\ Bieder\ \ Milliard\ Black.otf") format("opentype");
+}
 
 
 .container-img {
@@ -14,3 +18,13 @@
     transform: translate(-50%, -50%);
     letter-spacing: .25em;
   }
+
+.text-center{
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+
