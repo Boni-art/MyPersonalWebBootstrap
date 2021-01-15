@@ -1,7 +1,15 @@
 
 @font-face {
-  font-family: proximanova;
-  src: url("./assets/fonts/milliard-cufonfonts/Rene\ Bieder\ \ Milliard\ Black.otf") format("opentype");
+  font-family: proxima-nova;
+  src: url("./assets/fonts/proxima/Proxima\ Nova\ Thin.otf") format("opentype");
+}
+
+#hi{
+  font-size: 5em;
+  font-weight: 999;
+  font-family: proxima-nova, sans-serif;
+  top: 35%;
+  letter-spacing: 0.05em;
 }
 
 
@@ -27,4 +35,10 @@
   line-height: 1em;
 }
 
+.p-5{
+  border: none;
+}
 
+.mt-3{
+  width: 100%;
+}
