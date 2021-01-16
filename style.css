@@ -1,11 +1,105 @@
 
 @font-face {
   font-family: proxima-nova;
+  src: url("./assets/fonts/proxima/ProximaNova-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: proxima-nova-thin;
   src: url("./assets/fonts/proxima/Proxima\ Nova\ Thin.otf") format("opentype");
 }
+@font-face {
+  font-family: proxima-nova-black;
+  src: url("./assets/fonts/proxima/Proxima\ Nova\ Black.otf") format("opentype");
+}
+@font-face {
+  font-family: proxima-nova-bold;
+  src: url("./assets/fonts/proxima/Proxima\ Nova\ Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: proxima-nova-bolder;
+  src: url("./assets/fonts/proxima/Proxima\ Nova\ Extrabold.otf") format("opentype");
+}
+
+#biniyam{
+  font-family: proxima-nova-thin;
+  font-weight: 599;
+  font-size: 1.56em;
+  line-height: 0.2em;
+  letter-spacing: 0.1em;
+}
+#abiy{
+  font-family: proxima-nova;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+
+.navbar-collapse>ul>li>a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 1.11em;
+}
+
+#nav-links:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+.jumbotron {
+  background-image: url('./assets/img/Thomas-Frank-YouTuber-2020-jan.jpg');
+  height: 124vh;
+  background-position: center;
+  color: #fff;
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 92%, 51% 100%, 0 92%, 0 0);
+}
+
+.jumbotron > h1 {
+  color: #fff;
+  align-self: center;
+  text-align: center;
+  font: proxima-nova, sans-serif;
+  font-size: 65px;
+  letter-spacing: 2.7px;
+  line-height: 1.4em;
+  font: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  position: relative;
+  top: 50%;
+  font-weight: 900;
+  filter: brightness(100%) contrast(127%) saturate(122%) blur(0) hue-rotate(0deg);
+}
+
+/* #icons{
+  margin-left: 1.3em;
+}
+
+#nav-items{
+  margin-right: 1.3em;
+} */
+#nav-links-d{
+  color: black;
+  background-color: ;
+}
+
+#nav-links-d:hover{
+  color: white;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
 
 #hi{
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 999;
   font-family: proxima-nova, sans-serif;
   top: 35%;
@@ -27,10 +121,10 @@
     letter-spacing: .25em;
   }
 
-.text-center{
+.text-leads{
   font-family: proxima-nova, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 50;
   font-size: 3em;
   line-height: 1em;
 }
@@ -42,3 +136,10 @@
 .mt-3{
   width: 100%;
 }
+
+
+.icon-cont i{
+  color: white;
+}
+
+
