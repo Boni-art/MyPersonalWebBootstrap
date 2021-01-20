@@ -20,10 +20,12 @@
   src: url("./assets/fonts/proxima/Proxima\ Nova\ Extrabold.otf") format("opentype");
 }
 
+
+
 #biniyam{
   font-family: proxima-nova-thin;
   font-weight: 599;
-  font-size: 1.56em;
+  font-size: 1.3em;
   line-height: 0.2em;
   letter-spacing: 0.1em;
 }
@@ -36,40 +38,54 @@
 
 .navbar-collapse>ul>li>a{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  letter-spacing: 0.2em;
-  font-size: 1.11em;
+  letter-spacing: 0.19em;
+  font-size: 0.9em;
+}
+
+#nav-links{
+  color: black;
+  opacity: 75%;
 }
 
 #nav-links:hover{
   background-color: black;
   color: white;
+  opacity: 100%;
+}
+
+
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
 
 
 .jumbotron {
-  background-image: url('./assets/img/Thomas-Frank-YouTuber-2020-jan.jpg');
+  background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80');
   height: 124vh;
   background-position: center;
   color: #fff;
   background-size: cover;
   clip-path: polygon(100% 0, 100% 92%, 51% 100%, 0 92%, 0 0);
+  opacity: 80%;
+  filter: hue-rotate(10deg);
 }
 
 .jumbotron > h1 {
-  color: #fff;
+  color: white;
   align-self: center;
   text-align: center;
-  font: proxima-nova, sans-serif;
-  font-size: 65px;
+  font-size: 4.3em;
   letter-spacing: 2.7px;
-  line-height: 1.4em;
+  line-height: 1em;
   font: bold;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, .3);
   position: relative;
-  top: 50%;
-  font-weight: 900;
+  top: 38%;
+  font-weight: 999;
   filter: brightness(100%) contrast(127%) saturate(122%) blur(0) hue-rotate(0deg);
 }
 
@@ -82,30 +98,82 @@
 } */
 #nav-links-d{
   color: black;
-  background-color: ;
+  opacity: 75%;
 }
 
 #nav-links-d:hover{
   color: white;
   background-color: black;
+  opacity: 100%;
 }
 
 
 
-
-
-
-
-
-
-#hi{
-  font-size: 4em;
+#hi-am{
+  font-family: proxima-nova-bolder;
   font-weight: 999;
-  font-family: proxima-nova, sans-serif;
-  top: 35%;
-  letter-spacing: 0.05em;
 }
 
+#lead-text-cont{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+#lead-text{
+  font-family: proxima-nova-thin;
+  opacity: 90%;
+  font-size: 2.9em;
+  font-weight: 600;
+  line-height: 1.6em;
+  letter-spacing: 0.01em;
+}
+
+
+.titles{
+  font-family: proxima-nova-bold;
+  font-size: 2em;
+  letter-spacing: 0.03em;
+  opacity: 90%;
+  color: black;
+}
+
+.content{
+  font-family: proxima-nova;
+  font-size: 1.3em;
+  opacity: 98%;
+  line-height: 1.5em;
+}
+
+
+.btn-danger{
+  background-color: #f86977;
+  opacity: 93%;
+}
+
+
+
+#call-her{
+  width: 100%; 
+  height: 100%;
+  border: 1px solid #4d5f81;
+}
+
+#call-her:hover{
+  box-shadow: 0.5px 0.5px 1px black, 0 0 2px blue, 0 0 2px darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+far fa-eye
 
 .container-img {
     position: relative;
@@ -140,6 +208,173 @@
 
 .icon-cont i{
   color: white;
+} */
+
+
+
+
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
 }
-
-
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#534c4c;
+  text-decoration: none;
+}
+.site-footer a:hover
+{
+  color:#bacbec;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
