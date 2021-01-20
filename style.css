@@ -106,6 +106,13 @@
   background-color: black;
   opacity: 100%;
 }
+#nav-links-e{
+  color: white;
+}
+#nav-links-e:hover{
+  color: white;
+  background-color: white;
+}
 
 
 
@@ -365,7 +372,7 @@ far fa-eye
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.instagram:hover
 {
   background-color:#ea4c89
 }
