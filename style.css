@@ -125,6 +125,11 @@
   padding-top: 7em;
   padding-bottom: 7em;
 }
+#lead-text-cont-course{
+  padding-bottom: 3em;
+  opacity: 100%;
+}
+
 
 #lead-text{
   font-family: proxima-nova-thin;
@@ -133,6 +138,14 @@
   font-weight: 600;
   line-height: 1.6em;
   letter-spacing: 0.01em;
+}
+
+#lead-text-course{
+  font-family: proxima-nova;
+  font-size: 6em;
+  color: #252118;
+  font-weight: 999;
+  line-height: 1.6em;
 }
 
 
