@@ -20,6 +20,8 @@
   src: url("./assets/fonts/proxima/Proxima\ Nova\ Extrabold.otf") format("opentype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 
 
 #biniyam{
@@ -180,7 +182,9 @@
   box-shadow: 0.5px 0.5px 1px black, 0 0 2px blue, 0 0 2px darkblue;
 }
 
-
+.card-title{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 
